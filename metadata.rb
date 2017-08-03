@@ -7,6 +7,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '3.6.0'
 source_url       'https://github.com/mdsol/mesos_cookbook'
 issues_url       'https://github.com/mdsol/mesos_cookbook/issues'
+chef_version     '>= 12.14'
 
 %w(ubuntu debian centos amazon scientific oracle).each do |os|
   supports os
